@@ -140,6 +140,7 @@ class VarDeclExpr implements Expression {
     }
     public Value evaluate(Environment env) {
         // YOUR CODE HERE
+        Value v = env.resolveVar()
         return null;
     }
 }
@@ -158,6 +159,13 @@ class AssignExpr implements Expression {
     }
     public Value evaluate(Environment env) {
         // YOUR CODE HERE
+        // if the variable does not resolve to anything
+        // then create it. How to add it to global scope?
+        if(env.resolveVar(varName) == null) {
+            env.createVar(varName, e.evaluate(env));
+        }
+        // if found, then update variable
+        else env.updateVar(varName, e.evaluate(env));
         return null;
     }
 }
