@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="508dada1-5a9b-4920-9a31-80bdf780f3a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/AssignExpr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/BinOpExpr$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/BinOpExpr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/BoolVal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/ClosureVal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/Environment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/Expression.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/ExpressionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/FunctionAppExpr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/FunctionDeclExpr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/IfExpr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/IntVal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/Interpreter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/NullVal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/Op.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/PrintExpr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/SeqExpr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/Value.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/ValueExpr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/VarDeclExpr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/VarExpr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/edu/sjsu/fwjs/WhileExpr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cs152.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cs152.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/sjsu/fwjs/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/fwjs/Environment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/sjsu/fwjs/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/fwjs/Expression.java" afterDir="false" />
-    </list>
+    <list default="true" id="508dada1-5a9b-4920-9a31-80bdf780f3a1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/sjsu/fwjs/Interpreter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+            <state relative-caret-position="38">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -106,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
@@ -162,6 +133,11 @@
             <path>
               <item name="cs152" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs152" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs152" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs152" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -183,8 +159,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,7 +168,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553049877791" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553066609644" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -262,7 +238,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="185" y="23" width="1255" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49915397" visible="true" weight="0.13881962" />
       <window_info id="Structure" order="1" sideWeight="0.500846" side_tool="true" weight="0.16642651" />
@@ -362,17 +337,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/sjsu/fwjs/Interpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -386,10 +361,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+    <entry file="file://$PROJECT_DIR$/src/edu/sjsu/fwjs/Interpreter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
