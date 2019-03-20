@@ -233,7 +233,10 @@ class VarDeclExpr implements Expression {
     }
     public Value evaluate(Environment env) {
         // YOUR CODE HERE
-        return null;
+        // create the variable in the current environment
+        // and return it(?)
+        env.createVar(varName, exp.evaluate(env));
+        return env.resolveVar(varName);
     }
 }
 
@@ -268,7 +271,9 @@ class FunctionDeclExpr implements Expression {
     }
     public Value evaluate(Environment env) {
         // YOUR CODE HERE
-        return null;
+        // create the closure and returning it
+        ClosureVal closure = new ClosureVal(params, body, env);
+        return closure;
     }
 }
 
@@ -284,6 +289,12 @@ class FunctionAppExpr implements Expression {
     }
     public Value evaluate(Environment env) {
         // YOUR CODE HERE
+        // Make a List of Values by evaluating the List of Expressions
+        List<Value> values = new ArrayList<>();
+        for(Expression arg : args)
+                values.add(arg.evaluate(env));
+        // using the environment
+        f.evaluate(env);
         return null;
     }
 }
