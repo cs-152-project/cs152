@@ -1,5 +1,6 @@
 # Update these variables to match the locations
-JUNIT_JAR=/home/linh/Downloads/junit-4.13-beta-2.jar
+JUNIT_JAR=/Users/philipnguyen/Library/Junit/junit-4.10.jar
+#/home/linh/Downloads/junit-4.13-beta-2.jar
 HAMCREST_JAR=/home/linh/Downloads/hamcrest-core-2.1.jar
 
 # These variables should not need to be changed

@@ -28,12 +28,12 @@ public class Environment {
      */
     public Value resolveVar(String varName) {
         if(this.env.get(varName)!= null){
-            return this.env.get(key);
+            return this.env.get(varName);
         }
-        if(outerEnv == null) {
+        else if(outerEnv == null) {
             return null;
         }
-        this.outerEnv.resolveVar(varName);
+        else return this.outerEnv.resolveVar(varName);
     }
 
     /**
