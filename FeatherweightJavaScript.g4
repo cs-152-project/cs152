@@ -56,7 +56,9 @@ expr: expr op=( '*' | '/' | '%' ) expr                  # MulDivMod
 	| expr op=( '+' | '-' ) expr 						# AddSub
 	| expr op=( '<' | '<=' | '>' | '>=' | '==' ) expr 	# Equality
 	| FUNCTION '(' VAR  '){' expr '}' 					# FunctionDec /////////
-	| 'f(' expr ')'										# FunctionApp ////////
+	| VAR '(' expr ')'									# FunctionApp ////////
+    | VAR EQL expr                                      # Assignment
+    | VAR                                               # VariableRef
     | INT                                               # int
     | BOOL												# bool
     | NULL 												# null
